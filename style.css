@@ -1,5 +1,5 @@
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -17,21 +17,28 @@
 }
 
 .main {
-  width: 1000px;
+  width: 960px;
+  display: flex;
   justify-content: center;
   margin: 0 auto;
 }
 
-.center1 {
-  width: 960px;
+.sidebar-left {
+  width: 230px;
   height: 1400px;
   background-color: palegreen;
 }
 
-.center2 {
+.blog {
   width: 500px;
   height: 1400px;
-  background-color: green;
+  background-color: limegreen;
+}
+
+.sidebar-right {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
 }
 
 .footer {
